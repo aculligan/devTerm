@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "devterm"
-  spec.version       = "0.1.2"
+  spec.version       = "0.1.4"
   spec.authors       = ["Alex Culligan"]
   spec.email         = ["support@alexculligan.com"]
 
@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/aculligan/devterm"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|_svgs|_templates|LICENSE|README)}i) }
+  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|_svgs|LICENSE|README)}i) }
 
   spec.add_runtime_dependency "jekyll", "~> 3.3"
 

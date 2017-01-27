@@ -1,9 +1,8 @@
 # Site settings
-title : 
-description: 
+title : Example
+description: Example
 baseurl: ''
-url: ''
-ga: 
+url: 'https://google.com'
 collections:
   svgs:
   tips:
@@ -12,21 +11,21 @@ collections:
 
 # Author info
 author :
-  name : 
-  title: 
-  email : 
+  name : John Doe
+  title: Front End Web Developer
+  email : john@doe.com
   github :
-    user: 
-    url: 
+    user: jdoe
+    url: https://github.com/jdoe
   linkedin:
-    user: 
-    url: 
+    user: jdoe
+    url: https://www.linkedin.com/in/jdoe
   ruby-gems:
-    user: 
-    url: 
+    user: jdoe
+    url: https://rubygems.org/profiles/jdoe
   ko-fi:
-    user: 
-    url: 
+    user: jdoe
+    url: https://ko-fi.com/jdoe
 # Author info
 
 # Build settings
