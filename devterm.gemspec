@@ -2,13 +2,13 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "devterm"
-  spec.version       = "0.1.6"
+  spec.version       = "0.1.7"
   spec.authors       = ["Alex Culligan"]
   spec.email         = ["support@alexculligan.com"]
 
   spec.summary       = %q{Jekyll theme for developer portfolio.}
   spec.homepage      = "https://github.com/aculligan/devterm"
-  spec.license       = "MIT"
+  spec.license       = "Apache License 2.0"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE.txt|README.md)}i) }
 
