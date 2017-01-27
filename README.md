@@ -1,6 +1,6 @@
 # DevTerm
 
-Jekyll theme for developer portfolio.
+Jekyll theme for developer portfolio
 
 ## Installation
 
