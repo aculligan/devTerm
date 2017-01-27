@@ -1,0 +1,49 @@
+# Site settings
+title : 
+description: 
+baseurl: ''
+url: ''
+ga: 
+collections:
+  svgs:
+  tips:
+  works:
+# Site settings
+
+# Author info
+author :
+  name : 
+  title: 
+  email : 
+  github :
+    user: 
+    url: 
+  linkedin:
+    user: 
+    url: 
+  ruby-gems:
+    user: 
+    url: 
+  ko-fi:
+    user: 
+    url: 
+# Author info
+
+# Build settings
+safe: false
+theme: devterm
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+sass:
+  sass_dir: _sass
+  style: compressed
+exclude: ['LICENSE.txt', 'README.md']
+# Build settings
+
+# Compress HTML settings
+# More info here: http://jch.penibelst.de/
+compress_html:
+  blanklines: true
+  comments: ['<!-- ', ' -->']
+# Compress HTML settings
