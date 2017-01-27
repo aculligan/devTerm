@@ -1,0 +1,34 @@
+---
+layout: work
+permalink: /work/example
+title: Example
+description: This is an example
+published-url: https://google.com
+cdn: example
+tags: ['example']
+require: ['modal', 'menu', 'nav-bar', 'arrow-up']
+---
+
+{% include work-head.html %}
+      {% include work-about.html %}
+      <ul class="ul-features">
+        <li>Example text.</li>
+      </ul>
+      {% include work-screencaps.html %}
+      <p class="p-center p-screenshots">
+        <img class="img-screenshot" src=""/>
+      </p>
+{% include work-modal.html %}
+      {% include work-version.html %}
+      <h4>Version 1.0 - Published <a href="{{ page.published-url }}" target='_blank'>here</a>.</h4>
+      <ul class="ul-features ul-version">
+        <li>Example.</li>
+      </ul>
+      {% include work-bugs.html %}
+      <ul class="ul-features">
+        <li>No known issues at this time.</li>
+      </ul>
+{% include work-found-bug.html %}
+{% include work-license.html %}
+{% include work-more.html %}
+      {% include copyright.html %}

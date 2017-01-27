@@ -1,9 +1,3 @@
-    {% if page.require contains 'emoji' %}
-    <script src="{{ site.baseurl }}/assets/js/emojify-min.js"></script>
-    {% endif %}
-    {% if page.require contains 'language' %}
-    <script src="{{ site.baseurl }}/assets/js/language-min.js"></script>
-    {% endif %}
     {% if page.require contains 'menu' %}
     <script src="{{ site.baseurl }}/assets/js/menu-min.js"></script>
     {% endif %}
@@ -15,9 +9,3 @@
     {% endif %}
     <script src="{{ site.baseurl }}/assets/js/svg4everybody-min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/typed-min.js"></script>
-    {% if site.ga %}
-    <script src="{{ site.baseurl }}/assets/js/ga-min.js"></script>
-    {% endif %}
-    {% if page.title == 'Secret Service' %}
-    <script src="{{ site.baseurl }}/assets/js/trigger-image-min.js"></script>
-    {% endif %}

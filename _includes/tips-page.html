@@ -5,16 +5,7 @@
             <span class="tip-title">{{ tip.title }}</span>
             <span class="text-content text-content-white">
               <span>
-                {% if tip.logo contains 'zendesk' %}
-                <g-emoji>
-                  <img align="absmiddle" class="emoji" src="{{ site.baseurl }}/CDN/Universal_App_Assets/img/emoji/zendesk.png">
-                </g-emoji>
-                {% endif %}
-                {% if tip.logo contains 'chrome' %}
-                <g-emoji>
-                  <img align="absmiddle" class="emoji" src="{{ site.baseurl }}/CDN/Universal_App_Assets/img/emoji/chrome.png">
-                </g-emoji>
-                {% endif %}<br>{{ tip.description }}
+                {{ tip.description }}
               </span>
             </span>
           </a>
